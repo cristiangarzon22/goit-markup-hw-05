@@ -15,7 +15,7 @@
        <a href="index.html" id="logo">WebStudio</a>
        <nav>
            <ul class="list-nav">
-               <li><a href="#" id="estudio">Estudio</a></li>
+            <li><a href="#" id="estudio"><button id="modal" onclick="window.modal1.showModal();">Estudio</button></a></li>
                <li><a href="portafolio.html">portafolio</a></li>
                <li><a href="#">Contactos</a></li>
            </ul>
@@ -36,6 +36,18 @@
        </div>
        </header>
        <hr>
+       <dialog id="modal1">
+        <h3>ventana modal</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Eum sint molestiae neque ea voluptatem necessitatibus
+              sed expedita quas iusto aliquam, dolor quasi! Nobis 
+              earum cum numquam quaerat est cupiditate cumque placeat.
+               Perferendis
+             ullam veritatis quibusdam itaque illo ex earum sunt.
+          </p>
+        <button id="cerrar" onclick="window.modal1.close();">Cerrar</button>
+       </dialog>
        <section class="buttons">
         <button id="boton1" class="botones">todo</button>
         <button id="boton2" class="botones">sitios-web</button>
