@@ -352,8 +352,18 @@ h1{
     padding-bottom: 90px;
 }
 
+.container-red{
+    width: 44px;
+    height: 44px;
+    border-radius:50%;
+}
+
+.container-red:hover{
+    background-color: #2196F3;
+}
+
 .efecto:hover path{
-   fill:rgba(21, 111, 196, 0.5);
+   fill:#fff;
 }
 
 .redes-personales{
@@ -469,6 +479,10 @@ h1{
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     padding: 5px;
+}
+
+.first:hover{
+    border:1px solid #2196F3;
 }
 
 footer{
