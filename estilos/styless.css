@@ -362,8 +362,12 @@ h1{
     background-color: #2196F3;
 }
 
-.efecto:hover path{
+.efecto:hover {
    fill:#fff;
+}
+
+.efecto{
+    fill:#afb1b8;
 }
 
 .redes-personales{
@@ -448,7 +452,15 @@ h1{
     height: 372px;
 }
 
-.first:hover path{
+.contentlogo:hover {
+    border:1px solid #2196F3;
+}
+
+.first{
+    fill: #afb1b8;
+}
+
+.first:hover{
     fill:#2196F3;
 }
 
@@ -474,16 +486,16 @@ h1{
     justify-content: space-between;
 }
 
-.first{
+.contentlogo{
+    width:170px;
+    height:81px;
     border: 1px solid black;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     padding: 5px;
 }
 
-.first:hover{
-    border:1px solid #2196F3;
-}
+
 
 footer{
     width: 100%;
